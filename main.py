@@ -30,7 +30,7 @@ def getSearch():
 def test_sentiments():
     list_sents = []
     tweets = getSearch()
-    set_api_key("pIDFa4rmMonS93aFZ3ocGAW60ggqWnrhnhWsTzUtjAo")
+    set_api_key(" ")
     for tweet in tweets:
         list_sents.append(sentiment(tweet.text))
     return list_sents

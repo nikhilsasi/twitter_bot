@@ -7,12 +7,12 @@ import nltk
 from nltk.corpus import stopwords
 
 # Authentication Consumer Key
-CONSUMER_KEY = "89uJT3Ipc4SmJmHxqf6Omk4g6"
-CONSUMER_SECRET = "	KnWLWEjISNupiso3HBl9ZuKFzq8gYuu2dv5geZgIEZZ4EwMigq"
+CONSUMER_KEY = " "
+CONSUMER_SECRET = "	"
 
 # Authentication Access Tokens
-ACCESS_TOKEN = "1361706008-UPdrAj7w70AMA6oZItR7yMbREQxZkEGgm9IZobS"
-ACCESS_TOKEN_SECRET="30hPipvEw5WRFDSuvQvz9Fh7AgGIyiCtXCw4lnRzizedr"
+ACCESS_TOKEN = " "
+ACCESS_TOKEN_SECRET=" "
 #oauth handler
 oauth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 oauth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
